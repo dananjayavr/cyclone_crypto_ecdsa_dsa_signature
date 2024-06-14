@@ -9,6 +9,8 @@
 ### Project architecture
 
  - main.c : main entrypoint
+ - dsa_test.c : DSA test routine
+ - ecdsa_test.c : ECDSA test routine
  - debug.c : helper function definitions
  - prng_simulator.c (.h) : placeholder implementation of a PRNG 
  - lib/common : common files for CycloneCRYPTO (Open)
