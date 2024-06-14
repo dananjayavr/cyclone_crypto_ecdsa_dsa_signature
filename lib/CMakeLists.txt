@@ -34,6 +34,10 @@ target_sources(cyclone_crypto
         ${PROJECT_SOURCE_DIR}/lib/common/date_time.h
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha256.h
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha256.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha384.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha384.h
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha512.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha512.h
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha1.h
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/hash/sha1.c
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/pkc/dsa.c
@@ -44,4 +48,11 @@ target_sources(cyclone_crypto
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/encoding/asn1.h
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/mpi/mpi.c
         ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/mpi/mpi.h
+
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ec.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ec.h
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ec_curves.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ec_curves.h
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ecdsa.c
+        ${PROJECT_SOURCE_DIR}/lib/cyclone_crypto/ecc/ecdsa.h
 )

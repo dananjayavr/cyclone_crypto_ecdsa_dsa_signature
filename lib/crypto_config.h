@@ -115,4 +115,14 @@
 #define PEM_SUPPORT ENABLED
 // RSA support
 #define RSA_SUPPORT ENABLED
+
+//Elliptic curve cryptography support
+#define EC_SUPPORT ENABLED
+//ECDSA support
+#define ECDSA_SUPPORT ENABLED
+//secp256k1 elliptic curve support
+#define SECP256K1_SUPPORT ENABLED
+//secp192r1 elliptic curve support
+#define SECP192R1_SUPPORT ENABLED
+
 #endif
