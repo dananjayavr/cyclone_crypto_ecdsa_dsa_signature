@@ -26,7 +26,7 @@
  - From within 'build' directory, execute the following commands:
    - cmake ..
    - cmake --build .
-- ./ecdsa_dsa_signature_demo will run the demo.
+- ./dsa_ecdsa_signature_demo will run the demo.
 
 
 #### About lib/ folder
